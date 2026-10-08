@@ -1,0 +1,25 @@
+# Spark / Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.log
+ checkpoints/
+ checkpoint/
+ metastore_db/
+ derby.log
+ spark-warehouse/
+
+# Data large (mantener solo sintetico y resultados muestra)
+data/calidad_aire.csv
+data/*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.crc

@@ -1,0 +1,6 @@
+pyspark==3.5.3
+pandas<3.0
+matplotlib
+seaborn
+kafka-python
+pyarrow>=18.0.0
